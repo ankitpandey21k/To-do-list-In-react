@@ -1,8 +1,12 @@
 {
   "name": "todo-list",
   "version": "0.1.0",
-  "homepage": "https://ankitpandey21k.github.io/To-do-list-In-react",
-  "private": true,
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "custom-reporter": {
+    "type": "module"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,8 +19,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
